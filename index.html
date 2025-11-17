@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BlueSky Travels</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>BlueSky Travels</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Explore the world with curated packages</h2>
+      <p>Weekend getaways, international tours and custom adventures — all planned for you.</p>
+      <a class="cta" href="about.html">Learn more</a>
+    </section>
+
+    <section class="packages">
+      <article class="card">
+        <h3>Weekend Escape</h3>
+        <p>2 nights, guided tours, and local cuisine experiences.</p>
+      </article>
+      <article class="card">
+        <h3>Adventure Trip</h3>
+        <p>Hiking, rafting and outdoor activities with expert guides.</p>
+      </article>
+      <article class="card">
+        <h3>Romantic Getaway</h3>
+        <p>Handpicked hotels, private dinners and spa packages.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> BlueSky Travels • <a href="mailto:info@bluesky.example">info@bluesky.example</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
